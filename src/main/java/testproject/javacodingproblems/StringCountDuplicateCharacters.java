@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class StringCountDuplicateCharacters {
 
 	public static void main(String... args) {
-		System.out.println("Kultar Singh");
 		String str = "This is a current and duplicate current string";
 
 		long startTime = System.currentTimeMillis();
