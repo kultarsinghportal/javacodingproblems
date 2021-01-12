@@ -1,4 +1,4 @@
-package testproject.javacodingproblems;
+package javacodigproblems.String;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -14,6 +14,7 @@ public class StringCountDuplicateCharacters {
 
 		for (char ch : str.toCharArray()) {
 			dupStr.compute(ch, (k, v) -> (v == null) ? 1 : ++v);
+			//BiFunction -> (k, v) -> (v == null) ? 1 : ++v
 		}
 		System.out.println(dupStr);
 
