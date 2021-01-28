@@ -3,6 +3,7 @@ package BehaviourParameterization.Predicate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.IntPredicate;
 
 import BehaviourParameterization.Melon;
 
